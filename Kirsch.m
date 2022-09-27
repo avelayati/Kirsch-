@@ -10,7 +10,7 @@ clc; clear; close;
 % teta = ; % Angle between the direction of SHmax and the point in which stress is considered
 % r = ; % The distance r is measured from the center of the wellbore. at the wellbore wall r=a
 a = 1; % At the wellbore wall r=a
-SH = 22; Sh = 13; Sv = 25; 
+SH = 22; Sh = 13; Sv = 25;  % Effective stresses (MPa) "SigH-aPp"
 Pw = 10; % Wellbore pressure
 Pp = 10; % Pore pressure 
 v = 0.25; %Poisson ratio
